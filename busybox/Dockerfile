@@ -1,5 +1,5 @@
 FROM busybox
-MAINTAINER Veer Muchandi veer@redhat.com
+MAINTAINER M. Kerker
 ADD ./init.sh ./
 EXPOSE 8080
 CMD ["./init.sh"]
